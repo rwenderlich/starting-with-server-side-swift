@@ -1,0 +1,11 @@
+#extend("master")
+
+#export("head") {
+  #embed("title")
+}
+
+#export("body") {
+  #loop(users, "user") {
+    <h1>Hello, #(user.name)! <a href="mailto:#(user.email)">[Email]</a></h1>
+  }
+}

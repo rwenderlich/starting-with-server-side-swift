@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    #import("head")
+  </head>
+  <body>
+    #import("body")
+  </body>
+
+</html>
